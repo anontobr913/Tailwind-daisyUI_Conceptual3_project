@@ -31,9 +31,10 @@
               fontFamily:
               { poppins:'poppins'
               },
-              backgroundImage:{
-                leaf1: "url('./images/leaf01.jpg')",
+                backgroundImage:{
+                bannerBg: "url('./images/leaf01.png')",
                 call_to_action: "url('./images/call.jpg')"
+
               }
             }
           }
@@ -89,6 +90,50 @@
                 </div>
               </div>
         </nav>
+
+        <!-- Banner section starts -->
+         <section class="bg-bannerBg bg-no-repeat bg-right-bottom">
+            <!--banner background set -->
+            <div class="w-full h-full bg-body bg-opacity-90">
+                <!-- Banner content -->
+                <div class="lg:w-9/12 mx-auto py-28 flex sm:flex-row flex-col items-center">
+                    <!-- banner Image -->
+                    <div class="flex-1">
+                        <img src="./images/bannerbg.png" alt="">
+                    </div>
+                    <!-- Banner text and button -->
+                    <div class="flex-1 sm:text-left text-center sm:ml-10">
+                        <h4 class="text-xl font-semibold my-5">Best Quality product</h4>
+                        <h4 class="lg:text-6xl text-4xl font-semibold leading-tight">Join the Organic Movement!</h4>
+                        <p class="my-5 text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, ipsam!</p>
+                        <div class="flex justify-center items-center sm:justify-start">
+                            <button class="btn flex items-center gap-2 rounded-md  bg-accent text-white px-10 py-5 hover:bg-primary"><i class="fa-solid fa-cart-shopping"></i>  <span>Shop Now</span>
+                            </button>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+         </section>
      </header>
+
+     <main>
+        <!-- Call To Action section -->
+        <section>
+            <div class="hero max-h-1/2 object-cover"
+            style="background-image: url(./images/call.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content text-center">
+              <div class="max-w-md">
+                <h1 class="mb-5 sm:text-4xl text-3xl font-semibold">Insert a call to action</h1>
+                <p class="mb-5">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn bg-transparent text-white">Get Started</button>
+              </div>
+            </div>
+          </div></section>
+     </main>
 </body>
 </html>
